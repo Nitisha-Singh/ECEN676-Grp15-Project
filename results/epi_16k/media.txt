@@ -1,0 +1,418 @@
+WARNING: physical memory size is smaller than virtual memory size.
+WARNING: option --warmup_instructions is deprecated. Use --warmup-instructions instead.
+WARNING: option --simulation_instructions is deprecated. Use --simulation-instructions instead.
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+Warmup Instructions: 200000000
+Simulation Instructions: 1000000000
+Number of CPUs: 1
+Page size: 4096
+
+CPU 0 EPI prefetcher
+Initialize SIGNATURE TABLE
+ST_SET: 1
+ST_WAY: 256
+ST_TAG_BIT: 16
+ST_TAG_MASK: ffff
+
+Initialize PATTERN TABLE
+PT_SET: 512
+PT_WAY: 4
+SIG_DELTA_BIT: 7
+C_SIG_BIT: 4
+C_DELTA_BIT: 4
+
+Initialize PREFETCH FILTER
+FILTER_SET: 1024
+Off-chip DRAM Size: 2 GiB Channels: 1 Width: 64-bit Data Race: 3200 MT/s
+Setting LLC ptr 0x7ffd8fefb028
+Setting L2C ptr 0x7ffd8fefd3a0
+Setting L1D ptr 0x7ffd8fefc570
+Heartbeat CPU 0 instructions: 10000004 cycles: 3769097 heartbeat IPC: 2.653 cumulative IPC: 2.653 (Simulation time: 00 hr 01 min 14 sec)
+Heartbeat CPU 0 instructions: 20000001 cycles: 7396852 heartbeat IPC: 2.757 cumulative IPC: 2.704 (Simulation time: 00 hr 02 min 27 sec)
+Heartbeat CPU 0 instructions: 30000000 cycles: 11077084 heartbeat IPC: 2.717 cumulative IPC: 2.708 (Simulation time: 00 hr 03 min 42 sec)
+Heartbeat CPU 0 instructions: 40000001 cycles: 14712053 heartbeat IPC: 2.751 cumulative IPC: 2.719 (Simulation time: 00 hr 04 min 56 sec)
+Heartbeat CPU 0 instructions: 50000002 cycles: 18362861 heartbeat IPC: 2.739 cumulative IPC: 2.723 (Simulation time: 00 hr 06 min 10 sec)
+Heartbeat CPU 0 instructions: 60000003 cycles: 22028191 heartbeat IPC: 2.728 cumulative IPC: 2.724 (Simulation time: 00 hr 07 min 24 sec)
+Heartbeat CPU 0 instructions: 70000000 cycles: 25639862 heartbeat IPC: 2.769 cumulative IPC: 2.73 (Simulation time: 00 hr 08 min 37 sec)
+Heartbeat CPU 0 instructions: 80000001 cycles: 29309443 heartbeat IPC: 2.725 cumulative IPC: 2.729 (Simulation time: 00 hr 09 min 52 sec)
+Heartbeat CPU 0 instructions: 90000000 cycles: 32932872 heartbeat IPC: 2.76 cumulative IPC: 2.733 (Simulation time: 00 hr 11 min 06 sec)
+Heartbeat CPU 0 instructions: 100000001 cycles: 36609538 heartbeat IPC: 2.72 cumulative IPC: 2.732 (Simulation time: 00 hr 12 min 20 sec)
+Heartbeat CPU 0 instructions: 110000000 cycles: 40221715 heartbeat IPC: 2.768 cumulative IPC: 2.735 (Simulation time: 00 hr 13 min 34 sec)
+Heartbeat CPU 0 instructions: 120000003 cycles: 43881735 heartbeat IPC: 2.732 cumulative IPC: 2.735 (Simulation time: 00 hr 14 min 48 sec)
+*** Reached end of trace: (0, "/scratch/user/nitisha/Traces/media-stream.gz")
+Heartbeat CPU 0 instructions: 130000000 cycles: 47591642 heartbeat IPC: 2.695 cumulative IPC: 2.732 (Simulation time: 00 hr 16 min 02 sec)
+Heartbeat CPU 0 instructions: 140000001 cycles: 51236555 heartbeat IPC: 2.744 cumulative IPC: 2.732 (Simulation time: 00 hr 17 min 16 sec)
+Heartbeat CPU 0 instructions: 150000004 cycles: 54927848 heartbeat IPC: 2.709 cumulative IPC: 2.731 (Simulation time: 00 hr 18 min 31 sec)
+Heartbeat CPU 0 instructions: 160000000 cycles: 58561182 heartbeat IPC: 2.752 cumulative IPC: 2.732 (Simulation time: 00 hr 19 min 45 sec)
+Heartbeat CPU 0 instructions: 170000000 cycles: 62229466 heartbeat IPC: 2.726 cumulative IPC: 2.732 (Simulation time: 00 hr 20 min 59 sec)
+Heartbeat CPU 0 instructions: 180000000 cycles: 65887655 heartbeat IPC: 2.734 cumulative IPC: 2.732 (Simulation time: 00 hr 22 min 14 sec)
+Heartbeat CPU 0 instructions: 190000000 cycles: 69505124 heartbeat IPC: 2.764 cumulative IPC: 2.734 (Simulation time: 00 hr 23 min 27 sec)
+Heartbeat CPU 0 instructions: 200000001 cycles: 73155693 heartbeat IPC: 2.739 cumulative IPC: 2.734 (Simulation time: 00 hr 24 min 41 sec)
+Warmup finished CPU 0 instructions: 200000001 cycles: 73155694 cumulative IPC: 2.734 (Simulation time: 00 hr 24 min 41 sec)
+Warmup complete CPU 0 instructions: 200000001 cycles: 73155694 cumulative IPC: 2.734 (Simulation time: 00 hr 24 min 41 sec)
+Heartbeat CPU 0 instructions: 210000001 cycles: 85483273 heartbeat IPC: 0.8112 cumulative IPC: 0.8112 (Simulation time: 00 hr 27 min 09 sec)
+Heartbeat CPU 0 instructions: 220000002 cycles: 98412764 heartbeat IPC: 0.7734 cumulative IPC: 0.7919 (Simulation time: 00 hr 29 min 42 sec)
+Heartbeat CPU 0 instructions: 230000004 cycles: 110732874 heartbeat IPC: 0.8117 cumulative IPC: 0.7984 (Simulation time: 00 hr 32 min 11 sec)
+Heartbeat CPU 0 instructions: 240000000 cycles: 123285731 heartbeat IPC: 0.7966 cumulative IPC: 0.7979 (Simulation time: 00 hr 34 min 42 sec)
+*** Reached end of trace: (0, "/scratch/user/nitisha/Traces/media-stream.gz")
+Heartbeat CPU 0 instructions: 250000004 cycles: 135698732 heartbeat IPC: 0.8056 cumulative IPC: 0.7994 (Simulation time: 00 hr 37 min 11 sec)
+Heartbeat CPU 0 instructions: 260000002 cycles: 147536163 heartbeat IPC: 0.8448 cumulative IPC: 0.8067 (Simulation time: 00 hr 39 min 34 sec)
+Heartbeat CPU 0 instructions: 270000000 cycles: 160310965 heartbeat IPC: 0.7828 cumulative IPC: 0.8032 (Simulation time: 00 hr 42 min 06 sec)
+Heartbeat CPU 0 instructions: 280000003 cycles: 172468445 heartbeat IPC: 0.8225 cumulative IPC: 0.8055 (Simulation time: 00 hr 44 min 32 sec)
+Heartbeat CPU 0 instructions: 290000001 cycles: 184571224 heartbeat IPC: 0.8263 cumulative IPC: 0.8078 (Simulation time: 00 hr 47 min 01 sec)
+Heartbeat CPU 0 instructions: 300000001 cycles: 196916388 heartbeat IPC: 0.81 cumulative IPC: 0.808 (Simulation time: 00 hr 49 min 30 sec)
+Heartbeat CPU 0 instructions: 310000001 cycles: 209463719 heartbeat IPC: 0.797 cumulative IPC: 0.807 (Simulation time: 00 hr 52 min 00 sec)
+Heartbeat CPU 0 instructions: 320000001 cycles: 220772485 heartbeat IPC: 0.8843 cumulative IPC: 0.8129 (Simulation time: 00 hr 54 min 22 sec)
+Heartbeat CPU 0 instructions: 330000003 cycles: 233413175 heartbeat IPC: 0.7911 cumulative IPC: 0.8112 (Simulation time: 00 hr 56 min 54 sec)
+Heartbeat CPU 0 instructions: 340000002 cycles: 245413162 heartbeat IPC: 0.8333 cumulative IPC: 0.8127 (Simulation time: 00 hr 59 min 20 sec)
+Heartbeat CPU 0 instructions: 350000004 cycles: 258060573 heartbeat IPC: 0.7907 cumulative IPC: 0.8112 (Simulation time: 01 hr 01 min 52 sec)
+Heartbeat CPU 0 instructions: 360000001 cycles: 271133888 heartbeat IPC: 0.7649 cumulative IPC: 0.8082 (Simulation time: 01 hr 04 min 26 sec)
+Heartbeat CPU 0 instructions: 370000001 cycles: 283157978 heartbeat IPC: 0.8317 cumulative IPC: 0.8095 (Simulation time: 01 hr 06 min 53 sec)
+*** Reached end of trace: (0, "/scratch/user/nitisha/Traces/media-stream.gz")
+Heartbeat CPU 0 instructions: 380000000 cycles: 295606085 heartbeat IPC: 0.8033 cumulative IPC: 0.8092 (Simulation time: 01 hr 09 min 22 sec)
+Heartbeat CPU 0 instructions: 390000000 cycles: 307623205 heartbeat IPC: 0.8321 cumulative IPC: 0.8103 (Simulation time: 01 hr 11 min 48 sec)
+Heartbeat CPU 0 instructions: 400000004 cycles: 320007836 heartbeat IPC: 0.8075 cumulative IPC: 0.8102 (Simulation time: 01 hr 14 min 17 sec)
+Heartbeat CPU 0 instructions: 410000000 cycles: 332499700 heartbeat IPC: 0.8005 cumulative IPC: 0.8097 (Simulation time: 01 hr 16 min 49 sec)
+Heartbeat CPU 0 instructions: 420000003 cycles: 344498271 heartbeat IPC: 0.8334 cumulative IPC: 0.8108 (Simulation time: 01 hr 19 min 17 sec)
+Heartbeat CPU 0 instructions: 430000002 cycles: 356797763 heartbeat IPC: 0.813 cumulative IPC: 0.8109 (Simulation time: 01 hr 21 min 47 sec)
+Heartbeat CPU 0 instructions: 440000001 cycles: 368971522 heartbeat IPC: 0.8214 cumulative IPC: 0.8113 (Simulation time: 01 hr 24 min 13 sec)
+Heartbeat CPU 0 instructions: 450000002 cycles: 381055528 heartbeat IPC: 0.8275 cumulative IPC: 0.812 (Simulation time: 01 hr 26 min 41 sec)
+Heartbeat CPU 0 instructions: 460000003 cycles: 392998583 heartbeat IPC: 0.8373 cumulative IPC: 0.8129 (Simulation time: 01 hr 29 min 06 sec)
+Heartbeat CPU 0 instructions: 470000000 cycles: 405860949 heartbeat IPC: 0.7775 cumulative IPC: 0.8115 (Simulation time: 01 hr 31 min 38 sec)
+Heartbeat CPU 0 instructions: 480000000 cycles: 418579172 heartbeat IPC: 0.7863 cumulative IPC: 0.8106 (Simulation time: 01 hr 34 min 09 sec)
+Heartbeat CPU 0 instructions: 490000001 cycles: 431079426 heartbeat IPC: 0.8 cumulative IPC: 0.8102 (Simulation time: 01 hr 36 min 39 sec)
+*** Reached end of trace: (0, "/scratch/user/nitisha/Traces/media-stream.gz")
+Heartbeat CPU 0 instructions: 500000001 cycles: 443649701 heartbeat IPC: 0.7955 cumulative IPC: 0.8097 (Simulation time: 01 hr 39 min 08 sec)
+Heartbeat CPU 0 instructions: 510000000 cycles: 455586620 heartbeat IPC: 0.8377 cumulative IPC: 0.8106 (Simulation time: 01 hr 41 min 35 sec)
+Heartbeat CPU 0 instructions: 520000004 cycles: 468527650 heartbeat IPC: 0.7727 cumulative IPC: 0.8094 (Simulation time: 01 hr 44 min 10 sec)
+Heartbeat CPU 0 instructions: 530000004 cycles: 480557900 heartbeat IPC: 0.8312 cumulative IPC: 0.81 (Simulation time: 01 hr 46 min 37 sec)
+Heartbeat CPU 0 instructions: 540000003 cycles: 492720005 heartbeat IPC: 0.8222 cumulative IPC: 0.8104 (Simulation time: 01 hr 49 min 08 sec)
+Heartbeat CPU 0 instructions: 550000000 cycles: 505179754 heartbeat IPC: 0.8026 cumulative IPC: 0.8101 (Simulation time: 01 hr 51 min 40 sec)
+Heartbeat CPU 0 instructions: 560000002 cycles: 517731090 heartbeat IPC: 0.7967 cumulative IPC: 0.8098 (Simulation time: 01 hr 54 min 11 sec)
+Heartbeat CPU 0 instructions: 570000000 cycles: 528981021 heartbeat IPC: 0.8889 cumulative IPC: 0.8117 (Simulation time: 01 hr 56 min 31 sec)
+Heartbeat CPU 0 instructions: 580000002 cycles: 541317319 heartbeat IPC: 0.8106 cumulative IPC: 0.8117 (Simulation time: 01 hr 58 min 59 sec)
+Heartbeat CPU 0 instructions: 590000002 cycles: 553802363 heartbeat IPC: 0.801 cumulative IPC: 0.8114 (Simulation time: 02 hr 01 min 27 sec)
+Heartbeat CPU 0 instructions: 600000001 cycles: 566597677 heartbeat IPC: 0.7815 cumulative IPC: 0.8106 (Simulation time: 02 hr 03 min 58 sec)
+Heartbeat CPU 0 instructions: 610000002 cycles: 579745806 heartbeat IPC: 0.7606 cumulative IPC: 0.8093 (Simulation time: 02 hr 06 min 31 sec)
+Heartbeat CPU 0 instructions: 620000000 cycles: 591562437 heartbeat IPC: 0.8463 cumulative IPC: 0.8102 (Simulation time: 02 hr 08 min 54 sec)
+*** Reached end of trace: (0, "/scratch/user/nitisha/Traces/media-stream.gz")
+Heartbeat CPU 0 instructions: 630000002 cycles: 603928017 heartbeat IPC: 0.8087 cumulative IPC: 0.8101 (Simulation time: 02 hr 11 min 20 sec)
+Heartbeat CPU 0 instructions: 640000000 cycles: 616268969 heartbeat IPC: 0.8103 cumulative IPC: 0.8101 (Simulation time: 02 hr 13 min 45 sec)
+Heartbeat CPU 0 instructions: 650000003 cycles: 628467688 heartbeat IPC: 0.8198 cumulative IPC: 0.8104 (Simulation time: 02 hr 16 min 09 sec)
+Heartbeat CPU 0 instructions: 660000004 cycles: 640958815 heartbeat IPC: 0.8006 cumulative IPC: 0.8101 (Simulation time: 02 hr 18 min 36 sec)
+Heartbeat CPU 0 instructions: 670000002 cycles: 653034373 heartbeat IPC: 0.8281 cumulative IPC: 0.8105 (Simulation time: 02 hr 21 min 01 sec)
+Heartbeat CPU 0 instructions: 680000000 cycles: 665217365 heartbeat IPC: 0.8208 cumulative IPC: 0.8107 (Simulation time: 02 hr 23 min 26 sec)
+Heartbeat CPU 0 instructions: 690000002 cycles: 677099610 heartbeat IPC: 0.8416 cumulative IPC: 0.8113 (Simulation time: 02 hr 25 min 49 sec)
+Heartbeat CPU 0 instructions: 700000002 cycles: 689144954 heartbeat IPC: 0.8302 cumulative IPC: 0.8117 (Simulation time: 02 hr 28 min 14 sec)
+Heartbeat CPU 0 instructions: 710000002 cycles: 701416876 heartbeat IPC: 0.8149 cumulative IPC: 0.8118 (Simulation time: 02 hr 30 min 37 sec)
+Heartbeat CPU 0 instructions: 720000002 cycles: 714195610 heartbeat IPC: 0.7826 cumulative IPC: 0.8112 (Simulation time: 02 hr 33 min 06 sec)
+Heartbeat CPU 0 instructions: 730000003 cycles: 727189683 heartbeat IPC: 0.7696 cumulative IPC: 0.8104 (Simulation time: 02 hr 35 min 37 sec)
+Heartbeat CPU 0 instructions: 740000001 cycles: 739294274 heartbeat IPC: 0.8261 cumulative IPC: 0.8106 (Simulation time: 02 hr 38 min 02 sec)
+*** Reached end of trace: (0, "/scratch/user/nitisha/Traces/media-stream.gz")
+Heartbeat CPU 0 instructions: 750000002 cycles: 751794646 heartbeat IPC: 0.8 cumulative IPC: 0.8104 (Simulation time: 02 hr 40 min 29 sec)
+Heartbeat CPU 0 instructions: 760000000 cycles: 763982280 heartbeat IPC: 0.8205 cumulative IPC: 0.8106 (Simulation time: 02 hr 42 min 52 sec)
+Heartbeat CPU 0 instructions: 770000002 cycles: 776717432 heartbeat IPC: 0.7852 cumulative IPC: 0.8102 (Simulation time: 02 hr 45 min 20 sec)
+Heartbeat CPU 0 instructions: 780000000 cycles: 788782404 heartbeat IPC: 0.8288 cumulative IPC: 0.8105 (Simulation time: 02 hr 47 min 43 sec)
+Heartbeat CPU 0 instructions: 790000000 cycles: 800759279 heartbeat IPC: 0.8349 cumulative IPC: 0.8109 (Simulation time: 02 hr 50 min 06 sec)
+Heartbeat CPU 0 instructions: 800000000 cycles: 813566455 heartbeat IPC: 0.7808 cumulative IPC: 0.8104 (Simulation time: 02 hr 52 min 35 sec)
+Heartbeat CPU 0 instructions: 810000000 cycles: 825553956 heartbeat IPC: 0.8342 cumulative IPC: 0.8107 (Simulation time: 02 hr 54 min 58 sec)
+Heartbeat CPU 0 instructions: 820000001 cycles: 837090088 heartbeat IPC: 0.8668 cumulative IPC: 0.8116 (Simulation time: 02 hr 57 min 17 sec)
+Heartbeat CPU 0 instructions: 830000000 cycles: 849788684 heartbeat IPC: 0.7875 cumulative IPC: 0.8112 (Simulation time: 02 hr 59 min 45 sec)
+Heartbeat CPU 0 instructions: 840000002 cycles: 862265029 heartbeat IPC: 0.8015 cumulative IPC: 0.811 (Simulation time: 03 hr 02 min 13 sec)
+Heartbeat CPU 0 instructions: 850000002 cycles: 874698579 heartbeat IPC: 0.8043 cumulative IPC: 0.8109 (Simulation time: 03 hr 04 min 38 sec)
+Heartbeat CPU 0 instructions: 860000002 cycles: 887802301 heartbeat IPC: 0.7631 cumulative IPC: 0.8102 (Simulation time: 03 hr 07 min 10 sec)
+Heartbeat CPU 0 instructions: 870000001 cycles: 900028818 heartbeat IPC: 0.8179 cumulative IPC: 0.8103 (Simulation time: 03 hr 09 min 35 sec)
+*** Reached end of trace: (0, "/scratch/user/nitisha/Traces/media-stream.gz")
+Heartbeat CPU 0 instructions: 880000004 cycles: 912180759 heartbeat IPC: 0.8229 cumulative IPC: 0.8105 (Simulation time: 03 hr 11 min 58 sec)
+Heartbeat CPU 0 instructions: 890000001 cycles: 924769222 heartbeat IPC: 0.7944 cumulative IPC: 0.8102 (Simulation time: 03 hr 14 min 25 sec)
+Heartbeat CPU 0 instructions: 900000001 cycles: 936813723 heartbeat IPC: 0.8303 cumulative IPC: 0.8105 (Simulation time: 03 hr 16 min 48 sec)
+Heartbeat CPU 0 instructions: 910000000 cycles: 949234204 heartbeat IPC: 0.8051 cumulative IPC: 0.8104 (Simulation time: 03 hr 19 min 15 sec)
+Heartbeat CPU 0 instructions: 920000002 cycles: 961439314 heartbeat IPC: 0.8193 cumulative IPC: 0.8106 (Simulation time: 03 hr 21 min 42 sec)
+Heartbeat CPU 0 instructions: 930000000 cycles: 973490353 heartbeat IPC: 0.8298 cumulative IPC: 0.8108 (Simulation time: 03 hr 24 min 05 sec)
+Heartbeat CPU 0 instructions: 940000002 cycles: 985326254 heartbeat IPC: 0.8449 cumulative IPC: 0.8113 (Simulation time: 03 hr 26 min 29 sec)
+Heartbeat CPU 0 instructions: 950000001 cycles: 997393795 heartbeat IPC: 0.8287 cumulative IPC: 0.8115 (Simulation time: 03 hr 28 min 55 sec)
+Heartbeat CPU 0 instructions: 960000000 cycles: 1009570237 heartbeat IPC: 0.8213 cumulative IPC: 0.8116 (Simulation time: 03 hr 31 min 21 sec)
+Heartbeat CPU 0 instructions: 970000000 cycles: 1022301450 heartbeat IPC: 0.7855 cumulative IPC: 0.8113 (Simulation time: 03 hr 33 min 51 sec)
+Heartbeat CPU 0 instructions: 980000004 cycles: 1035785150 heartbeat IPC: 0.7416 cumulative IPC: 0.8103 (Simulation time: 03 hr 36 min 29 sec)
+Heartbeat CPU 0 instructions: 990000000 cycles: 1047760478 heartbeat IPC: 0.835 cumulative IPC: 0.8106 (Simulation time: 03 hr 38 min 54 sec)
+*** Reached end of trace: (0, "/scratch/user/nitisha/Traces/media-stream.gz")
+Heartbeat CPU 0 instructions: 1000000000 cycles: 1060000143 heartbeat IPC: 0.817 cumulative IPC: 0.8107 (Simulation time: 03 hr 41 min 20 sec)
+Heartbeat CPU 0 instructions: 1010000001 cycles: 1072474640 heartbeat IPC: 0.8016 cumulative IPC: 0.8106 (Simulation time: 03 hr 43 min 49 sec)
+Heartbeat CPU 0 instructions: 1020000003 cycles: 1084952466 heartbeat IPC: 0.8014 cumulative IPC: 0.8104 (Simulation time: 03 hr 46 min 16 sec)
+Heartbeat CPU 0 instructions: 1030000004 cycles: 1096872578 heartbeat IPC: 0.8389 cumulative IPC: 0.8108 (Simulation time: 03 hr 48 min 40 sec)
+Heartbeat CPU 0 instructions: 1040000001 cycles: 1109204560 heartbeat IPC: 0.8109 cumulative IPC: 0.8108 (Simulation time: 03 hr 51 min 09 sec)
+Heartbeat CPU 0 instructions: 1050000003 cycles: 1121693067 heartbeat IPC: 0.8007 cumulative IPC: 0.8107 (Simulation time: 03 hr 53 min 39 sec)
+Heartbeat CPU 0 instructions: 1060000000 cycles: 1133565800 heartbeat IPC: 0.8423 cumulative IPC: 0.811 (Simulation time: 03 hr 56 min 01 sec)
+Heartbeat CPU 0 instructions: 1070000003 cycles: 1145450602 heartbeat IPC: 0.8414 cumulative IPC: 0.8113 (Simulation time: 03 hr 58 min 26 sec)
+Heartbeat CPU 0 instructions: 1080000001 cycles: 1157946582 heartbeat IPC: 0.8003 cumulative IPC: 0.8112 (Simulation time: 04 hr 00 min 55 sec)
+Heartbeat CPU 0 instructions: 1090000000 cycles: 1170797262 heartbeat IPC: 0.7782 cumulative IPC: 0.8108 (Simulation time: 04 hr 03 min 28 sec)
+Heartbeat CPU 0 instructions: 1100000000 cycles: 1182834600 heartbeat IPC: 0.8307 cumulative IPC: 0.811 (Simulation time: 04 hr 05 min 52 sec)
+Heartbeat CPU 0 instructions: 1110000001 cycles: 1196001813 heartbeat IPC: 0.7595 cumulative IPC: 0.8104 (Simulation time: 04 hr 08 min 26 sec)
+Heartbeat CPU 0 instructions: 1120000000 cycles: 1208511084 heartbeat IPC: 0.7994 cumulative IPC: 0.8103 (Simulation time: 04 hr 10 min 54 sec)
+*** Reached end of trace: (0, "/scratch/user/nitisha/Traces/media-stream.gz")
+Heartbeat CPU 0 instructions: 1130000000 cycles: 1220478703 heartbeat IPC: 0.8356 cumulative IPC: 0.8106 (Simulation time: 04 hr 13 min 17 sec)
+Heartbeat CPU 0 instructions: 1140000002 cycles: 1232545563 heartbeat IPC: 0.8287 cumulative IPC: 0.8108 (Simulation time: 04 hr 15 min 42 sec)
+Heartbeat CPU 0 instructions: 1150000002 cycles: 1245249126 heartbeat IPC: 0.7872 cumulative IPC: 0.8105 (Simulation time: 04 hr 18 min 13 sec)
+Heartbeat CPU 0 instructions: 1160000001 cycles: 1257188378 heartbeat IPC: 0.8376 cumulative IPC: 0.8108 (Simulation time: 04 hr 20 min 37 sec)
+Heartbeat CPU 0 instructions: 1170000001 cycles: 1269922865 heartbeat IPC: 0.7853 cumulative IPC: 0.8105 (Simulation time: 04 hr 23 min 10 sec)
+Heartbeat CPU 0 instructions: 1180000000 cycles: 1281952944 heartbeat IPC: 0.8312 cumulative IPC: 0.8107 (Simulation time: 04 hr 25 min 34 sec)
+Heartbeat CPU 0 instructions: 1190000000 cycles: 1293614837 heartbeat IPC: 0.8575 cumulative IPC: 0.8112 (Simulation time: 04 hr 27 min 55 sec)
+Heartbeat CPU 0 instructions: 1200000000 cycles: 1305731681 heartbeat IPC: 0.8253 cumulative IPC: 0.8113 (Simulation time: 04 hr 30 min 22 sec)
+Simulation finished CPU 0 instructions: 1000000002 cycles: 1232575994 cumulative IPC: 0.8113 (Simulation time: 04 hr 30 min 22 sec)
+Simulation complete CPU 0 instructions: 1000000002 cycles: 1232575994 cumulative IPC: 0.8113 (Simulation time: 04 hr 30 min 22 sec)
+
+ChampSim completed all CPUs
+
+=== Simulation ===
+CPU 0 runs /scratch/user/nitisha/Traces/media-stream.gz
+Region of Interest Statistics
+
+CPU 0 cumulative IPC: 0.8113 instructions: 1000000002 cycles: 1232575994 wp_cycles: 0
+CPU 0 wrong_path_insts: 333915792 wrong_path_insts_skipped: 333915792 wrong_path_insts_executed: 0
+CPU 0 instr_foot_print: 5424 data_foot_print: 4884
+CPU 0 is_prefetch_insts: 67319841 is_prefetch_skipped: 67319841
+CPU 0 Branch Prediction Accuracy: 99.45% MPKI: 0.8161 Average ROB Occupancy at Mispredict: 89.76
+
+Branch type MPKI
+BRANCH_DIRECT_JUMP: 0.0872
+BRANCH_INDIRECT: 0.0791
+BRANCH_CONDITIONAL: 0.46
+BRANCH_DIRECT_CALL: 0.0195
+BRANCH_INDIRECT_CALL: 0.011
+BRANCH_RETURN: 0.159
+
+Instruction type breakdown
+direct_jumps: 5957009 (0.596%)
+indirect_branches: 238246 (0.0238%)
+conditional_branches: 93403376 (9.34%)
+direct_calls: 20331998 (2.03%)
+indirect_calls: 3681319 (0.368%)
+returns: 24032614 (2.4%)
+other_branches: 0 (0%)
+loads: 199976980 (20%)
+stores: 93404768 (9.34%)
+arithmetic: 558973692 (55.9%)
+total_instructions: 1000000002
+
+Fetch Idle Cycles 958456491 (77.8%)
+Decode Idle Cycles 1016646592 (82.5%)
+Dispatch Idle Cycles 948571178 (77%)
+Schedule Idle Cycles 807032059 (65.5%)
+Execute Idle Cycles 706128678 (57.3%)
+Retire Idle Cycles 925525160 (75.1%)
+
+Fetch Starve Cycles 231979168 (18.8%)
+Decode Starve Cycles 298699056 (24.2%)
+Dispatch Starve Cycles 263342420 (21.4%)
+Schedule Starve Cycles 28749592 (2.33%)
+Execute Starve Cycles 28749592 (2.33%)
+Retire Starve Cycles 28597433 (2.32%)
+
+Total Fetch Instructions 1302781620
+Total Decode Instructions 1302781625
+Total Dispatch Instructions 1302674989
+Total Schedule Instructions 1302674979
+Total Execute Instructions 1302674979
+Total Retire Instructions 1000000002
+
+New Execution Stats
+Execute Only WP Cycles 0
+Execute Only CP Cycles 0
+Execute CP WP Cycles 0
+Execute nothing ROB Empty Cycles 0
+Execute nothing ROB Empty Repair Cycles 0
+Execute nothing ROB Empty Fetch Stalled No WP Cycles 0
+Execute nothing ROB Not Ready Not Full New Added Cycles 0 
+Execute nothing ROB Not Ready Not Full No New Added Cycles 0 
+Execute nothing ROB Not Ready Full New Added Cycles 0
+Execute nothing ROB Not Ready Full No New Added Cycles 0
+Execute nothing Other IDK Cycles 0
+Execute Total Cycles Cycles 0
+
+Resteer Events 5600966
+Resteer Penalty 5.45%
+WP Not Available Count 0 Cycles 0 (0%)
+
+Wrong Path Stats
+Loads: Count 7151375 Issued 0
+
+Fetch Blocked Cycles 319741652
+IFetch Failed Events 0
+Fetch Buffer Not Empty 0
+Execute None Cycles 684319681
+Execute Head Not Ready Cycles 292167
+Execute Head Not Completed Cycles 593587934
+Execute Pending Cycles 675580433
+Execute Load Blocked Cycles 461401138
+Scheduler None Cycles 192565439
+LQ Full Events 0
+SQ Full Events 396141808
+Non Branch Squashes 2037687
+ROB Full Cycles 0
+ROB Empty Cycles 0
+ROB Full Events 0
+ROB Empty Events 0
+
+Inst Stats
+Loads Success: 170951379 
+Loads Executed: 181944304 
+Loads Retired: 228211332 
+
+LLC TOTAL        ACCESS:  165335133 HIT:   31350811 MISS:  133984322
+LLC LOAD         ACCESS:    1784713 HIT:     998464 MISS:     786249
+LLC RFO          ACCESS:    4446557 HIT:    4316692 MISS:     129865
+LLC PREFETCH     ACCESS:  153505059 HIT:   20896228 MISS:  132608831
+LLC WRITE        ACCESS:    5345895 HIT:    5114225 MISS:     231670
+LLC TRANSLATION  ACCESS:     252909 HIT:      25202 MISS:     227707
+LLC PREFETCH REQUESTED:          0 ISSUED:          0 USEFUL:          0 USELESS:          0
+LLC WRONG-PATH ACCESS:          0 LOAD:          0 USEFULL:          0 FILL:          0 USELESS:          0
+LLC POLLUTION: 0 WP_FILL:          0 WP_MISS:          0 CP_FILL:          0 CP_MISS:  133986176
+LLC INSTR REQ: 269416  HIT: 212366  MISS: 57050 WP_REQ: 0 WP_HIT: 0 WP_MISS: 0 
+LLC DATA REQ: 165067571  HIT: 31138445  MISS: 133929126 WP_REQ: 0 WP_HIT: 0 WP_MISS: 0 
+LLC AVERAGE MISS LATENCY: 59.13 cycles
+LLC AVERAGE WP MISS LATENCY: -nan cycles
+LLC AVERAGE CP MISS LATENCY: 59.13 cycles
+LLC AVERAGE INSTR MISS LATENCY: 994.8 cycles
+LLC AVERAGE WP INSTR MISS LATENCY: -nan cycles
+LLC AVERAGE CP INSTR MISS LATENCY: 994.8 cycles
+LLC AVERAGE DATA MISS LATENCY: 58.74 cycles
+LLC AVERAGE WP DATA MISS LATENCY: -nan cycles
+LLC AVERAGE CP DATA MISS LATENCY: 58.74 cycles
+
+cpu0_DTLB TOTAL        ACCESS:  289265094 HIT:  283156294 MISS:    6108800
+cpu0_DTLB LOAD         ACCESS:  289265094 HIT:  283156294 MISS:    6108800
+cpu0_DTLB RFO          ACCESS:          0 HIT:          0 MISS:          0
+cpu0_DTLB PREFETCH     ACCESS:          0 HIT:          0 MISS:          0
+cpu0_DTLB WRITE        ACCESS:          0 HIT:          0 MISS:          0
+cpu0_DTLB TRANSLATION  ACCESS:          0 HIT:          0 MISS:          0
+cpu0_DTLB PREFETCH REQUESTED:          0 ISSUED:          0 USEFUL:          0 USELESS:          0
+cpu0_DTLB WRONG-PATH ACCESS:          0 LOAD:          0 USEFULL:          0 FILL:          0 USELESS:          0
+cpu0_DTLB POLLUTION: 0 WP_FILL:          0 WP_MISS:          0 CP_FILL:          0 CP_MISS:    6108800
+cpu0_DTLB INSTR REQ: 0  HIT: 0  MISS: 0 WP_REQ: 0 WP_HIT: 0 WP_MISS: 0 
+cpu0_DTLB DATA REQ: 289265094  HIT: 283156294  MISS: 6108800 WP_REQ: 0 WP_HIT: 0 WP_MISS: 0 
+cpu0_DTLB AVERAGE MISS LATENCY: 25.69 cycles
+cpu0_DTLB AVERAGE WP MISS LATENCY: -nan cycles
+cpu0_DTLB AVERAGE CP MISS LATENCY: 25.69 cycles
+cpu0_DTLB AVERAGE INSTR MISS LATENCY: -nan cycles
+cpu0_DTLB AVERAGE WP INSTR MISS LATENCY: -nan cycles
+cpu0_DTLB AVERAGE CP INSTR MISS LATENCY: -nan cycles
+cpu0_DTLB AVERAGE DATA MISS LATENCY: 25.69 cycles
+cpu0_DTLB AVERAGE WP DATA MISS LATENCY: -nan cycles
+cpu0_DTLB AVERAGE CP DATA MISS LATENCY: 25.69 cycles
+
+cpu0_ITLB TOTAL        ACCESS:  651853656 HIT:  630789454 MISS:   21064202
+cpu0_ITLB LOAD         ACCESS:  651853656 HIT:  630789454 MISS:   21064202
+cpu0_ITLB RFO          ACCESS:          0 HIT:          0 MISS:          0
+cpu0_ITLB PREFETCH     ACCESS:          0 HIT:          0 MISS:          0
+cpu0_ITLB WRITE        ACCESS:          0 HIT:          0 MISS:          0
+cpu0_ITLB TRANSLATION  ACCESS:          0 HIT:          0 MISS:          0
+cpu0_ITLB PREFETCH REQUESTED:          0 ISSUED:          0 USEFUL:          0 USELESS:          0
+cpu0_ITLB WRONG-PATH ACCESS:          0 LOAD:          0 USEFULL:          0 FILL:          0 USELESS:          0
+cpu0_ITLB POLLUTION: 0 WP_FILL:          0 WP_MISS:          0 CP_FILL:          0 CP_MISS:   21064202
+cpu0_ITLB INSTR REQ: 228006102  HIT: 224192212  MISS: 3813890 WP_REQ: 0 WP_HIT: 0 WP_MISS: 0 
+cpu0_ITLB DATA REQ: 423847554  HIT: 406597242  MISS: 17250312 WP_REQ: 0 WP_HIT: 0 WP_MISS: 0 
+cpu0_ITLB AVERAGE MISS LATENCY: 4.251 cycles
+cpu0_ITLB AVERAGE WP MISS LATENCY: -nan cycles
+cpu0_ITLB AVERAGE CP MISS LATENCY: 4.251 cycles
+cpu0_ITLB AVERAGE INSTR MISS LATENCY: 2.459 cycles
+cpu0_ITLB AVERAGE WP INSTR MISS LATENCY: -nan cycles
+cpu0_ITLB AVERAGE CP INSTR MISS LATENCY: 2.459 cycles
+cpu0_ITLB AVERAGE DATA MISS LATENCY: 4.647 cycles
+cpu0_ITLB AVERAGE WP DATA MISS LATENCY: -nan cycles
+cpu0_ITLB AVERAGE CP DATA MISS LATENCY: 4.647 cycles
+
+cpu0_L1D TOTAL        ACCESS:  526876590 HIT:  369415334 MISS:  157461256
+cpu0_L1D LOAD         ACCESS:  147697443 HIT:  108309587 MISS:   39387856
+cpu0_L1D RFO          ACCESS:          0 HIT:          0 MISS:          0
+cpu0_L1D PREFETCH     ACCESS:  145279115 HIT:   99105480 MISS:   46173635
+cpu0_L1D WRITE        ACCESS:  233900032 HIT:  162000267 MISS:   71899765
+cpu0_L1D TRANSLATION  ACCESS:          0 HIT:          0 MISS:          0
+cpu0_L1D PREFETCH REQUESTED:  148659591 ISSUED:  145279112 USEFUL:   11740622 USELESS:    1948065
+cpu0_L1D WRONG-PATH ACCESS:          0 LOAD:          0 USEFULL:          0 FILL:          0 USELESS:          0
+cpu0_L1D POLLUTION: 0 WP_FILL:          0 WP_MISS:          0 CP_FILL:          0 CP_MISS:  160670327
+cpu0_L1D INSTR REQ: 0  HIT: 0  MISS: 0 WP_REQ: 0 WP_HIT: 0 WP_MISS: 0 
+cpu0_L1D DATA REQ: 530085661  HIT: 369415334  MISS: 160670327 WP_REQ: 0 WP_HIT: 0 WP_MISS: 0 
+cpu0_L1D AVERAGE MISS LATENCY: 16.88 cycles
+cpu0_L1D AVERAGE WP MISS LATENCY: -nan cycles
+cpu0_L1D AVERAGE CP MISS LATENCY: 16.54 cycles
+cpu0_L1D AVERAGE INSTR MISS LATENCY: -nan cycles
+cpu0_L1D AVERAGE WP INSTR MISS LATENCY: -nan cycles
+cpu0_L1D AVERAGE CP INSTR MISS LATENCY: -nan cycles
+cpu0_L1D AVERAGE DATA MISS LATENCY: 16.54 cycles
+cpu0_L1D AVERAGE WP DATA MISS LATENCY: -nan cycles
+cpu0_L1D AVERAGE CP DATA MISS LATENCY: 16.54 cycles
+
+cpu0_L1I TOTAL        ACCESS:  827324915 HIT:  794249826 MISS:   33075089
+cpu0_L1I LOAD         ACCESS:  273485464 HIT:  269378161 MISS:    4107303
+cpu0_L1I RFO          ACCESS:          0 HIT:          0 MISS:          0
+cpu0_L1I PREFETCH     ACCESS:  553839451 HIT:  524871665 MISS:   28967786
+cpu0_L1I WRITE        ACCESS:          0 HIT:          0 MISS:          0
+cpu0_L1I TRANSLATION  ACCESS:          0 HIT:          0 MISS:          0
+cpu0_L1I PREFETCH REQUESTED:  553839441 ISSUED:  553839441 USEFUL:   21306305 USELESS:    7430055
+cpu0_L1I WRONG-PATH ACCESS:          0 LOAD:          0 USEFULL:          0 FILL:          0 USELESS:          0
+cpu0_L1I POLLUTION: 0 WP_FILL:          0 WP_MISS:          0 CP_FILL:          0 CP_MISS:  124710125
+cpu0_L1I INSTR REQ: 278354742  HIT: 269378161  MISS: 8976581 WP_REQ: 0 WP_HIT: 0 WP_MISS: 0 
+cpu0_L1I DATA REQ: 640605209  HIT: 524871665  MISS: 115733544 WP_REQ: 0 WP_HIT: 0 WP_MISS: 0 
+cpu0_L1I AVERAGE MISS LATENCY: 38.75 cycles
+cpu0_L1I AVERAGE WP MISS LATENCY: -nan cycles
+cpu0_L1I AVERAGE CP MISS LATENCY: 10.28 cycles
+cpu0_L1I AVERAGE INSTR MISS LATENCY: 13.8 cycles
+cpu0_L1I AVERAGE WP INSTR MISS LATENCY: -nan cycles
+cpu0_L1I AVERAGE CP INSTR MISS LATENCY: 13.8 cycles
+cpu0_L1I AVERAGE DATA MISS LATENCY: 10 cycles
+cpu0_L1I AVERAGE WP DATA MISS LATENCY: -nan cycles
+cpu0_L1I AVERAGE CP DATA MISS LATENCY: 10 cycles
+
+cpu0_L2C TOTAL        ACCESS:  252871585 HIT:   80634513 MISS:  172237072
+cpu0_L2C LOAD         ACCESS:    5215714 HIT:    3401555 MISS:    1814159
+cpu0_L2C RFO          ACCESS:   11879561 HIT:    7432997 MISS:    4446564
+cpu0_L2C PREFETCH     ACCESS:  222020201 HIT:   56318934 MISS:  165701267
+cpu0_L2C WRITE        ACCESS:   13331405 HIT:   13310972 MISS:      20433
+cpu0_L2C TRANSLATION  ACCESS:     424704 HIT:     170055 MISS:     254649
+cpu0_L2C PREFETCH REQUESTED:  198909794 ISSUED:  179595329 USEFUL:     142143 USELESS:    7645904
+cpu0_L2C WRONG-PATH ACCESS:          0 LOAD:          0 USEFULL:          0 FILL:          0 USELESS:          0
+cpu0_L2C POLLUTION: 0 WP_FILL:          0 WP_MISS:          0 CP_FILL:          0 CP_MISS:  172237072
+cpu0_L2C INSTR REQ: 2044625  HIT: 1775059  MISS: 269566 WP_REQ: 0 WP_HIT: 0 WP_MISS: 0 
+cpu0_L2C DATA REQ: 250826960  HIT: 78859454  MISS: 171967506 WP_REQ: 0 WP_HIT: 0 WP_MISS: 0 
+cpu0_L2C AVERAGE MISS LATENCY: 26.04 cycles
+cpu0_L2C AVERAGE WP MISS LATENCY: -nan cycles
+cpu0_L2C AVERAGE CP MISS LATENCY: 26.04 cycles
+cpu0_L2C AVERAGE INSTR MISS LATENCY: 231 cycles
+cpu0_L2C AVERAGE WP INSTR MISS LATENCY: -nan cycles
+cpu0_L2C AVERAGE CP INSTR MISS LATENCY: 231 cycles
+cpu0_L2C AVERAGE DATA MISS LATENCY: 25.72 cycles
+cpu0_L2C AVERAGE WP DATA MISS LATENCY: -nan cycles
+cpu0_L2C AVERAGE CP DATA MISS LATENCY: 25.72 cycles
+
+cpu0_STLB TOTAL        ACCESS:   14830533 HIT:   14499879 MISS:     330654
+cpu0_STLB LOAD         ACCESS:   14830533 HIT:   14499879 MISS:     330654
+cpu0_STLB RFO          ACCESS:          0 HIT:          0 MISS:          0
+cpu0_STLB PREFETCH     ACCESS:          0 HIT:          0 MISS:          0
+cpu0_STLB WRITE        ACCESS:          0 HIT:          0 MISS:          0
+cpu0_STLB TRANSLATION  ACCESS:          0 HIT:          0 MISS:          0
+cpu0_STLB PREFETCH REQUESTED:          0 ISSUED:          0 USEFUL:          0 USELESS:          0
+cpu0_STLB WRONG-PATH ACCESS:          0 LOAD:          0 USEFULL:          0 FILL:          0 USELESS:          0
+cpu0_STLB POLLUTION: 0 WP_FILL:          0 WP_MISS:          0 CP_FILL:          0 CP_MISS:     330654
+cpu0_STLB INSTR REQ: 1504337  HIT: 1501684  MISS: 2653 WP_REQ: 0 WP_HIT: 0 WP_MISS: 0 
+cpu0_STLB DATA REQ: 13326196  HIT: 12998195  MISS: 328001 WP_REQ: 0 WP_HIT: 0 WP_MISS: 0 
+cpu0_STLB AVERAGE MISS LATENCY: 636.4 cycles
+cpu0_STLB AVERAGE WP MISS LATENCY: -nan cycles
+cpu0_STLB AVERAGE CP MISS LATENCY: 636.4 cycles
+cpu0_STLB AVERAGE INSTR MISS LATENCY: 1297 cycles
+cpu0_STLB AVERAGE WP INSTR MISS LATENCY: -nan cycles
+cpu0_STLB AVERAGE CP INSTR MISS LATENCY: 1297 cycles
+cpu0_STLB AVERAGE DATA MISS LATENCY: 631.1 cycles
+cpu0_STLB AVERAGE WP DATA MISS LATENCY: -nan cycles
+cpu0_STLB AVERAGE CP DATA MISS LATENCY: 631.1 cycles
+
+
+DRAM Statistics
+
+Channel 0 RQ ROW_BUFFER_HIT:          0
+  ROW_BUFFER_MISS:          0
+ AVG DBUS CONGESTED CYCLE: -
+WQ ROW_BUFFER_HIT: Channel 0 
+  ROW_BUFFER_MISS:          0
+  FULL:          0
+CPU 0 L1I EPI prefetcher final stats
